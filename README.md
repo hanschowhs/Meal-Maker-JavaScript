@@ -2,15 +2,15 @@
 
 This is a mini-project completed at Codecademy for my JavaScript course, primarily based on the ‘Objects’ lesson.
 
+
 Meal Maker
 
 As a frequent diner, you love trying out new restaurants and experimenting with different foods. However, having to figure out what you want to order can be a time-consuming ordeal if the menu is big, and you want an easier way to be able to figure out what you are going to eat.
 
 In this project, you’ll use JavaScript to randomly create a three-course meal based on what is available on a menu. We’ll keep running it until we’re satisfied with the generated meal!
 
-Tasks
 
-Meal Maker
+Tasks
 
 1.
 Start by creating an empty menu object.
@@ -44,6 +44,7 @@ Create a method inside the menu object called .getRandomDishFromCourse(). It wil
 
 10.
 There are a few steps in getting the .getRandomDishFromCourse() to work.
+
 1.	Retrieve the array of the given course’s dishes from the menu‘s _courses object and store in a variable called dishes.
 2.	Generate a random index by multiplying Math.random() by the length of the dishes array (This will guarantee that the random number will be between 0 and the length of the array)
 3.	Round that generated number to a whole number by using Math.floor() on the result.
@@ -51,6 +52,7 @@ There are a few steps in getting the .getRandomDishFromCourse() to work.
 
 11.
 Now that we have a way to get a random dish from a course, we can create a .generateRandomMeal() function which will automatically generate a three-course meal for us. The function doesn’t need to take any parameters.
+
 1.	The function should create an appetizer variable which should be the result of calling the .getRandomDishFromCourse() method when we pass in an appetizers string to it.
 2.	Create a main variable and dessert variable the same way you created the appetizer variable, but make sure to pass in the right course type.
 3.	Calculates the total price and returns a string that contains the name of each of the dishes and the total price of the meal, formatted as you like.
