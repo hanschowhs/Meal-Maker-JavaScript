@@ -63,7 +63,7 @@ Now that we’ve finished our menu, object, let’s use it to create a menu by a
 13)
 Once your menu has items inside it, generate a meal by using the .generateRandomMeal() function on your menu, and save it to a variable called meal. Lastly, print out your meal variable to see what meal was generated for you.
 
-Output:
+Code Output:
 
 [ { name: 'Salad', price: 1.5 } ]
 [ { name: 'Salad', price: 1.5 }, { name: 'Chips', price: 2.5 } ]
@@ -90,5 +90,4 @@ Output:
  Your meal is Salad, Rice and Coffee. The total price is 4.5.
 
  Your meal is Fries, Steak and Coffee. The total price is 8.5.
- 
  
